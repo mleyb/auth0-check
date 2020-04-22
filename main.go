@@ -13,9 +13,9 @@ import (
 
 func main() {
 
-	domain := "bluezero.eu.auth0.com"
+	domain := "dog.eu.auth0.com"
 	id := "Xlj91hQHbWvJASF8NA0AcJxRwNhpGaPP"
-	secret := "_H72pQ9L0d1bqmiiAKyQuqK7QUEwrhzzBBMqSkMkkXeueioY4fh66wvzHy9BeoLw"
+	secret := "elided"
 
 	m, err := management.New(domain, id, secret)
 	if err != nil {
